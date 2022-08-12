@@ -1,0 +1,177 @@
+
+
+
+@media (max-width:767px) {
+
+
+    /* Hero Sections */
+    .hero-parts {
+        flex-direction: column-reverse;
+    }
+
+    .hero-color {
+        height: 105vw;
+    } 
+
+    .laptop-mobile { 
+        right: 27%;
+    }
+
+    .inner-text {
+        width: 85vw;
+    } 
+
+    .alchol-head {
+        padding-top: 4vw;
+        font-size: 3.75vw;
+    }
+
+    .alcohol-para {
+        font-size: 2.2vw;
+    }
+
+
+    /* SECURE & COMPLIANT Section */
+
+    .inner__child {
+        margin-bottom: 3vw;
+        height: 30vw;
+    }
+    .secure-head {
+        font-size: 2.5vw;
+    }
+
+    .secure-para {
+        font-size: 1.5vw;
+    }
+
+
+    /* Customer Ui-Flow */
+    .customer-head {
+        font-size: 3.82vw;
+    }
+
+    .customer-para {
+        font-size: 2vw;
+    }
+
+}
+
+
+
+
+
+@media (max-width:575px) {
+
+    /* SECURE & COMPLIANT Section */
+
+    .inner__child {
+        margin-bottom: 4vw;
+        height: 35vw;
+    }
+
+    .secure-main-head {
+        font-size: 4vw;
+    }
+
+    .secure-parts {
+        padding: 0 20vw;
+    }
+
+    .secure-head {
+        font-size: 2.8vw;
+    }
+
+    .secure-para {
+        font-size: 1.8vw;
+    }
+
+
+    /* Launch An Alcohol */
+
+    .launch-alchol-head {
+        font-size: 5vw;
+    }
+
+    .launch-alcohol-para {
+        font-size: 2vw;
+    }
+
+    /* Customer Ui-Flow */
+
+    .parent-mobile {
+        width: 50vw;
+    }
+
+    .mobile-image {
+        width: 22vw;
+        height: 45vw;
+    }
+
+    .cart-size {
+        width: 50vw; 
+    }
+
+    .customer-head {
+        font-size: 5vw;
+    }
+
+    .customer-para {
+        font-size: 3vw;
+    }
+
+    .cart-head {
+        font-size: 4vw;
+        margin-top: 0 !important;
+    }
+
+    .cart-para {
+        font-size: 2.8vw;
+    }
+
+    .won-liquor-head {
+        font-size: 5vw;
+    }
+
+    .owner-parts {
+        width: 80vw;
+    }
+
+    .liquor-background {
+        height: 50vw;
+    }
+
+
+    /* ONLINE LIQUOR WEBSITE Section */
+
+    .direction-change {
+        flex-direction: column;
+    }
+
+    .direction-change-reverse {
+        flex-direction: column-reverse;
+    }
+    .online-website-head {
+        font-size: 5vw;
+    }
+
+    .lapi-image {
+        margin-bottom: 4vw;
+        width: 50vw;
+        height: 30vw;
+
+    }
+
+    .liquor-website-cart {
+        width: 60vw;
+
+    }
+
+    .liquor-website-head {
+        font-size: 3.2vw;
+    }
+
+    .liquor-website-para {
+        font-size: 2.2vw;
+    }
+}

@@ -1,0 +1,388 @@
+/* ----------------------------------- */
+/* .........Basic Setup....... */
+/* ------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------- */
+/* .........Font-Family....... */
+/* ------------------------------------ */
+
+@font-face {
+    font-family: Sf-sans-Bold ;
+    src: url("../muli-cufonfonts/Product\ Sans\ Bold.ttf");
+}
+
+@font-face {
+    font-family:Sf-sans-Regular ;
+    src: url("../muli-cufonfonts/Product\ Sans\ Regular.ttf");
+}
+
+@font-face {
+    font-family: Muli-Bold ;
+    src: url("../muli-cufonfonts/Muli-Bold.ttf");
+}
+
+@font-face {
+    font-family:Muli-Regular ;
+    src: url("../muli-cufonfonts/Muli-Regular.ttf");
+}
+
+@font-face {
+    font-family: Muli-Light ;
+    src: url("../muli-cufonfonts/Muli-Light.ttf");
+}
+
+@font-face {
+    font-family:Muli-Samibold ;
+    src: url("../muli-cufonfonts/Muli-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Muli-Black ;
+    src: url("../muli-cufonfonts/Muli-Black.ttf");
+}
+
+@font-face {
+    font-family:Muli-Samibold ;
+    src: url("../muli-cufonfonts/Muli-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Muli-Eaxtrabold ;
+    src: url("../muli-cufonfonts/Muli-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family:Muli-Samibold ;
+    src: url("../muli-cufonfonts/Muli-SemiBold.ttf");
+}
+
+/* ----------------------------------- */
+/* .........Hero Section....... */
+/* ------------------------------------ */
+
+.hero-color {
+    width: 100%;
+    height: 56.25vw;
+    background-image: url("./img/Rectangle\ 2.svg");
+}
+
+.inner-text {
+    position: relative;
+    top: 35%;
+    left: 10%;
+}
+
+.alchol-head {
+    font-size: 3.75vw;
+    font-family: Muli-Black ;
+    color: #FFFFFF;
+}
+.alcohol-para {
+    color: #FFFFFF;
+    font-size: 1.46vw;
+    padding-right: 100px;
+    font-family: Muli-Samibold;
+}
+
+.get-touch {
+    font-size: 1.25vw;
+    padding:  1.5vw 1.83vw;
+    background-color: #25292F;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: Sf-sans-Bold;
+    margin-right: 1.5vw;
+}
+
+.pricing {
+    font-size: 1.25vw;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-family: Sf-sans-Bold;
+    padding:1.5vw 3.64vw ;
+}
+
+.inner-image {
+    position: relative;
+}
+
+.ring-image {
+    width: 100%;
+    height: 55vw;
+}
+
+.laptop-mobile {
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    width: 49.63vw;
+    height: 28.90vw;
+}
+
+/* ----------------------------------- */
+/* .........SECURE & COMPLIANT Section....... */
+/* ------------------------------------ */
+
+.secure-main-head {
+    font-size: 3.12vw;
+    text-align: center;
+    color: #121212;
+    font-family: Muli-Black;
+    font-weight: 400;
+}
+
+.inner__child {
+    /* width: 26.35vw; */
+    height: 20.46vw;
+    border: 1px solid #E12C2D;
+    border-radius: 5px;
+}
+
+.secure-head {
+    font-size: 1.67vw;
+    color: #E12C2D;
+    font-family: Muli-Eaxtrabold;
+}
+
+.secure-head::after {
+    content: "";
+    width: 15vw;
+    background-color: red;
+    height: 0.25vw;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+}
+
+.search-head-1::after {
+    width: 12vw;
+    position: absolute;
+    right: 8%;
+    bottom: 15%;
+}
+
+.search-head-5::after {
+    width: 8vw;
+    position: absolute;
+    right: 8%;
+    bottom: 15%;
+}
+
+.secure-para {
+    font-size: 0.94vw;
+    font-family: Muli-Samibold;
+}
+
+/* ----------------------------------- */
+/* .........Launch An Alcohol....... */
+/* ------------------------------------ */
+
+.main-background  {
+    width: 100%;
+    /* height: 83.85vw; */
+    background-color: #F7F7F7;
+}
+
+.launch-alchol-head {
+    font-size: 3.12vw;
+    color: #121212;
+    font-family:  Muli-Black;
+}
+
+.launch-ahcohol-image {
+    width: 71vw;
+    height: 47.65vw;
+}
+
+.launch-alcohol-para  {
+    font-size: 1.46vw;
+    color: #101010;
+}
+
+
+/* ----------------------------------- */
+/* .........Launch An Alcohol....... */
+/* ------------------------------------ */
+
+
+.customer-head {
+    font-size: 3.12vw;
+    color: #121212;
+    font-family: Muli-Black;
+}
+
+.customer-para {
+    font-size: 1.458vw;
+    font-family:Muli-Samibold ;
+    color: #101010;
+}
+
+.parent-mobile {
+    width: 31.25vw;
+}
+
+.mobile-image {
+    width: 18.07vw;
+    height: 36.09vw;
+}
+
+.cart-size {
+    width: 31.25vw;
+    /* height: 13vw; */
+    border: 1px solid #707070;
+}
+
+.cart-head {
+    font-size: 1.67vw;
+    color: #25292F;
+    font-family:Muli-Eaxtrabold ;
+}
+
+.cart-head::after {
+    content: "";
+    width: 13vw;
+    background-color: red;
+    height: 0.2vw;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+.cart-head-small::after {
+    width: 7vw !important;
+    right: 39% !important;
+}
+
+.cart-para {
+    font-size: 1.30vw;
+    color: #25292F;
+    font-family:Muli-Samibold ;
+}
+
+/* ----------------------------------- */
+/* .........Own-Liquor....... */
+/* ------------------------------------ */
+
+.liquor-background {
+    height: 24.73vw;
+    background-color: #25292F;
+}
+
+.owner-parts {
+    width: 66.66vw;
+}
+
+.won-liquor-head {
+    font-size: 3.75vw;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.request-demo {
+    font-size: 1.30vw;
+    background-color: #E12C2D;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 1.56vw 2.81vw;
+    outline: none;
+    border: none;
+}
+
+/* ----------------------------------- */
+/* .........UI FLOW OF THE PICKER APP....... */
+/* ------------------------------------ */
+
+.ui-flow-section {
+    background-color: #E12C2D;
+    width: 100%;
+}
+
+.cart-size-color {
+    border: 0.5px solid #FFFFFF;
+}
+
+.customer-head-color {
+    color: #FFFFFF;
+}
+
+.customer-para-color {
+    color: #FFFFFF;
+}
+
+.cart-head-color {
+    color: #FFFFFF;
+}
+
+.cart-para-color {
+    color: #FFFFFF; 
+}
+
+.cart-head-color::after {
+    content: "";
+    width: 13vw;
+    background-color:black;
+    height: 0.2vw;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+}
+
+/* ----------------------------------- */
+/* .........LIQUOR DELIVERY Sections....... */
+/* ------------------------------------ */
+
+.liquor-delevery {
+    background-color: #F7F7F7;
+    width: 100%;
+}
+
+.online-website-head {
+    font-size: 3.12vw;
+    width: 68.3vw;
+    color: #121212;
+    font-family: Muli-Black;
+}
+
+.lapi-image {
+    width: 44.63vw;
+    height: 26vw;
+}
+
+.liquor-website-cart {
+    width: 42.96vw;
+    padding-left: 0.67vw;
+}
+
+.liquor-website-head {
+    font-size: 1.67vw;
+    color: #25292F;
+    font-family: Muli-Eaxtrabold;
+}
+
+.liquor-website-head::after {
+    content: "";
+    width: 13vw;
+    background-color: #E12C2D;
+    height: 0.2vw;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+}
+
+.liquor-website-head-small::after {
+    width: 7vw;
+}
+
+.liquor-website-para {
+    font-size: 1.30vw;
+    color: #25292F;
+    font-family: Muli-Samibold ;
+}
